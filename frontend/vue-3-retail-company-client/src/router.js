@@ -36,6 +36,12 @@ const routes =  [
         // lazy-loaded
         component: UserId
     },
+    {
+        path: "/api/v1/users/",
+        name: "post-user",
+        // lazy-loaded
+        component: AddUser
+    },
 ];
 
 const router = createRouter({
