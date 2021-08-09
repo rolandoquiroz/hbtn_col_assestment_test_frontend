@@ -7,7 +7,7 @@ import Login from "./components/Login.vue";
 // lazy-loaded
 
 const UsersAll = () => import("./components/UsersAll")
-
+const UserId = () => import("./components/UserId")
 
 const routes =  [
     {
@@ -29,6 +29,12 @@ const routes =  [
         name: "get-users-all",
           // lazy-loaded
         component: UsersAll
+    },
+    {
+        path: "/api/v1/users/:id/",
+        name: "get-user-id",
+        // lazy-loaded
+        component: UserId
     },
 ];
 
