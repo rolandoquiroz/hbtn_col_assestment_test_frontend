@@ -1,7 +1,7 @@
 <template>
     <div class="col-md-12">
         <div class="card card-container">
-            <h3 class="mt-2 mb-3 float-left">Login</h3>
+            <h3 class="mt-2 mb-3 text-center">Login</h3>
             <h6 class="mt-2 mb-3 text-center">to continue to Retail Company</h6>
             <Form @submit="handleLogin" :validation-schema="schema">
                 <div class="form-group">
@@ -106,6 +106,11 @@ label {
     -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
 }
+
+.form-group {
+margin-bottom: 1.5rem;
+}
+
 .error-feedback {
     color: red;
 }

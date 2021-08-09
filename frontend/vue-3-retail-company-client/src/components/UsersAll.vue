@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <header class="jumbotron">
-            <h3 class="mt-2 mb-3 float-left text-primary">Users</h3>
+            <h3 class="mt-2 mb-3 float-left text-primary">All users</h3>
         </header>
     <!-- Users Table -->
         <table class="table table-striped">
