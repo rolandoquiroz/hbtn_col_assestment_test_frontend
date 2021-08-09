@@ -7,6 +7,7 @@ import Login from "./components/Login.vue";
 
 const UsersAll = () => import("./components/UsersAll")
 const UserId = () => import("./components/UserId")
+const AddUser = () => import("./components/AddUser")
 
 const routes =  [
     {
