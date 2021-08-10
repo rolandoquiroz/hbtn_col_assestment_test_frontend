@@ -65,8 +65,10 @@
         </div>
 
         <div v-else>
-            <h4>You submitted successfully!</h4>
-            <button class="btn btn-success" @click="newUser">Add</button>
+            <h4 class="mt-2 mb-3 text-center">You submitted successfully!</h4>
+            <div class="wrapper">
+                <button class="btn btn-success" @click="newUser">Add</button>
+            </div>
         </div>
     </div>
 </div>
@@ -140,5 +142,9 @@ h3 {
 
 .form-group {
 margin-bottom: 1.5rem;
+}
+
+.wrapper {
+    text-align: center;
 }
 </style>
